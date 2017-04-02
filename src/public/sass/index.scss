@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import 'home';
+@import 'nav';
+@import 'about';
+@import 'slideshow';
+
+// ::-webkit-scrollbar {
+//     display: none;
+// }
+html{
+  height: 100%;
+}
+body {
+  background-image: url('/static/css/assets/gold-background.png');
+  background-color: #1f1f1f;
+  margin: auto;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+main{
+ height: 100%;
+}
+
+footer {
+  img{
+    width: 3%;
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "jacobkortbeek",
+  "version": "1.0.0",
+  "description": "the site of jacob kortbeek",
+  "main": "app.js",
+  "engines": {
+    "node": "6.1.0",
+    "npm": "3.10.10"
+  },
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jacobkortbeek/jacobkortbeek.git"
+  },
+  "author": "jacob kortbeek",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.1",
+    "http": "0.0.0",
+    "nodemailer": "^3.1.7",
+    "pug": "^2.0.0-beta11"
+  }
+}

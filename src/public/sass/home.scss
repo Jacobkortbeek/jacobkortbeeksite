@@ -1,0 +1,198 @@
+.beardGuy {
+  width: 20%;
+  margin-top: 2.5%;
+}
+.titles h1{
+  font-size: 2.5em;
+  color:#eac500;
+  text-shadow: 2px 2px 3px rgb(11,11,11);
+}
+.titles h2 {
+  text-shadow: 2px 2px 3px rgb(11,11,11);
+  margin-top: 2.5%;
+  :hover {
+    font-size: 1.1em;
+    transition: .3s ease-in-out;
+  }
+}
+
+#about-container {
+  margin-top: 5%;
+  background-color: #fffcc4;
+  color: black;
+  overflow: hidden;
+  padding-bottom: 11%;
+  h1 {
+    font-size: 2.3em;
+    margin-bottom: -7%;
+    margin-top: 10%;
+  }
+  p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.8em;
+    margin-top: 13%;
+  }
+}
+
+#knowledge-container {
+  background-color: steelblue;
+  color: black;
+  overflow: hidden;
+  h1 {
+    font-size: 2.3em;
+    margin-bottom: -10%;
+    margin-top: 5%;
+  }
+  p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.8em;
+    margin-top: 13%;
+  }
+  img{
+    width:22%;
+    margin-right: 5%;
+  }
+  .diy-slideshow{
+    height: 58vh;
+    margin-top: 5%;
+  }
+}
+
+#blog-container {
+  background-color: aliceblue;
+  color: black;
+  overflow: hidden;
+  padding-bottom: 11%;
+  h1 {
+    font-size: 2.3em;
+    margin-bottom: -7%;
+    margin-top: 10%;
+  }
+  p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.8em;
+    margin-top: 13%;
+  }
+}
+
+#contact-container {
+  background-color: green;
+  color: black;
+  overflow: hidden;
+  padding-bottom: 11%;
+  h1 {
+    font-size: 2.3em;
+  }
+  input {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 4em;
+    margin-bottom: 1.5em;
+    border-radius: 0.5em;
+    border-style: solid;
+    border: none;
+    outline: none;
+  }
+
+  textarea {
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    border-radius: 0.5em;
+    border-style: solid;
+    border: none;
+    outline: none;
+    margin: 0px;
+    height: 15em;
+    width: 57em;
+    margin-bottom: 1.5em;
+  }
+
+  //form buttons
+  button {
+    color: aliceblue;
+    font-size: 1.3em;
+    border-radius: 0.5em;
+    background-color: steelblue;
+    border-style: solid;
+    border: none;
+    outline: none;
+    width: 37.8em;
+    height: 2em;
+  }
+
+  button:active {
+    background-color: #6ca2d7;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+}
+
+#request-container {
+  background-color: purple;
+  color: black;
+  overflow: hidden;
+  padding-bottom: 11%;
+  h1 {
+    font-size: 2.3em;
+  }
+  input {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 4em;
+    margin-bottom: 1.5em;
+    border-radius: 0.5em;
+    border-style: solid;
+    border: none;
+    outline: none;
+  }
+
+  textarea {
+    font-family: 'Varela Round', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    border-radius: 0.5em;
+    border-style: solid;
+    border: none;
+    outline: none;
+    margin: 0px;
+    height: 15em;
+    width: 57em;
+    margin-bottom: 1.5em;
+  }
+
+  //form buttons
+  button {
+    color: aliceblue;
+    font-size: 1.3em;
+    border-radius: 0.5em;
+    background-color: steelblue;
+    border-style: solid;
+    border: none;
+    outline: none;
+    width: 37.8em;
+    height: 2em;
+  }
+
+  button:active {
+    background-color: #6ca2d7;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+}

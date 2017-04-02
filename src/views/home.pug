@@ -1,0 +1,47 @@
+extends index.pug
+
+block content
+  #home-container
+    img(src="/static/css/assets/beard-guy-shaddow.png" class='beardGuy')
+    .titles
+      h1 Jacob Kortbeek
+      h2 <a href=''><span style="color: #448cf8">Web Developer</span></a> - <a href=''><span style="color: #923fa7">Web Desinger</span></a> - <a href=''><span style="color: #f5f5f5">Graphic Desinger</span></a>
+  #about-container
+    h1 ABOUT
+    p Viral shoreditch glossier truffaut keytar succulents. Selfies venmo +1, affogato ethical edison bulb mumblecore retro. 3 wolf moon literally intelligentsia ethical, woke sriracha drinking vinegar raclette man braid williamsburg bushwick wolf. Quinoa craft beer try-hard, pinterest skateboard street art poke gastropub helvetica sriracha semiotics ramps bitters humblebrag. Pok pok distillery marfa, tattooed vaporware cronut four dollar toast flannel migas poke plaid swag vexillologist seitan.
+  #knowledge-container
+    h1 What I know
+    p Viral shoreditch glossier truffaut keytar succulents. Selfies venmo +1, affogato ethical edison bulb mumblecore retro.
+    //-code languages slide show
+    <div class="diy-slideshow">
+      <figure class="show">
+        <img src="/static/css/assets/HTML5_Logo.png">
+        <img src="/static/css/assets/CSS3.png" style="width: 16.5%">
+        <img src="/static/css/assets/js-logo.png" style="width: 18.5%">
+      </figure>
+      <figure>
+        <img src="/static/css/assets/pug-final-logo.png">
+        <img src="/static/css/assets/sass-black.png">
+        <img src="/static/css/assets/jquery.png" style="margin-bottom: 5%"> 
+      </figure>
+      <figure>
+        <img src="/static/css/assets/ajax.png" style="margin-top: 8%"> 
+        <img src="/static/css/assets/mongodb.jpg">
+        <img src="/static/css/assets/express.png">
+      </figure>
+      <figure>
+        <img src="/static/css/assets/angular.png">
+        <img src="/static/css/assets/nodejs.png">
+        <img src="/static/css/assets/wordpress.png">
+      </figure>
+      <span class="prev">&laquo;</span>
+      <span class="next">&raquo;</span>
+    </div>
+  #contact-container
+    h1 contact me
+    form(method="POST" action="/sayHello")
+      input(name="name" type="text" placeholder="Full Name")
+      input(name="email" type="text" placeholder="Email Address")
+      input(name="subject" type="text" placeholder="Subject")
+      <textarea name="message" type="text" placeholder="Your Message..."></textarea>
+      button(href="mailsent") Send Message
